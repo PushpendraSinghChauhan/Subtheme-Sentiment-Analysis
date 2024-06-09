@@ -95,4 +95,7 @@ From above we can clearly see that model starts overfitting after 4 epochs <br>
 
 ## Inference : 
 INPUT --> “One tyre went missing, so there was a delay to get the two tyres fitted. The way garage dealt with it was fantastic.” <br> 
-Top 3 Labels for Fine-Tuned model: [('refund positive', 'wait time negative', 'wait time positive')]
+Top 3 Labels for Fine-Tuned model: [('refund positive', 'wait time negative', 'wait time positive')] 
+
+## Libraries to install to run this notebook :
+--> numpy, pandas, matplotlib, seaborn, tensorflow, torch,  transformers, scikit-learn 
