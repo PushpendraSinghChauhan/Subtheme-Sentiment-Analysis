@@ -22,7 +22,11 @@ learning_rate : 2e-5 <br>
 loss : CrossEntropy <br>
 num_labels : 55 (After data preprocessing, we left with 55 unique subtheme labels) <br> 
 
-## Results : 
+### NOTE :
+Please download the fine-tuned model from here : https://drive.google.com/file/d/1Sl-VLTMylBuSVT3AxbMPzFNotxUDyAqf/view?usp=sharing  <br>
+And place it in the "sentiment_model" folder.<br>
+
+## Results Of Fine-Tuned Model (Bert-base-uncased) : 
 
 Epoch 1/10 <br>
 ----------  <br>
@@ -83,7 +87,7 @@ Validation loss 0.043511063997392935 accuracy 0.9944547134935305 <br>
 ![Screenshot (270)](https://github.com/PushpendraSinghChauhan/Subtheme-Sentiment-Analysis/assets/34591830/62421ae7-effd-4d60-9d9b-22ac750c2b61)
 
 #### Conclusion :
-From above we can clearly see that model starts overfitting after 4 epochs <br> 
+From above we can clearly see that model starts overfitting after 4 epochs. And we have to further work to avoid it from overfitting.<br> 
 
 ## Limitations And Approach For Future Improvements :
 --> More task in data-preprocessing : Removal of stopwords, removal of special symbols (!,@,# etc.), convert all the strinngs to lowercase etc. <br>
